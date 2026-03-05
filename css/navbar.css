@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8fb;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #f8c8dc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d63384;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #d63384;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.login-btn {
+    padding: 8px 18px;
+    border: 1px solid #d63384;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #d63384;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #d63384;
+    color: white;
+}
+
+.signup-btn {
+    padding: 8px 20px;
+    background-color: #d63384;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.signup-btn:hover {
+    background-color: #b0256a;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #d63384;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555;
+}
