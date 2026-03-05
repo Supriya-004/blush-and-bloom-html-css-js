@@ -146,3 +146,16 @@ body {
     font-size: 16px;
     transition: 0.3s;
 }
+
+.social-icons a:hover {
+    background-color: #b0256a;
+    transform: translateY(-4px);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #f3b3cf;
+    padding-top: 15px;
+    font-size: 13px;
+}
