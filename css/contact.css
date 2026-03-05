@@ -45,3 +45,17 @@ body {
 .nav-links a:hover {
     color: #d63384;
 }
+
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.login-btn {
+    padding: 8px 18px;
+    border: 1px solid #d63384;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #d63384;
+    transition: 0.3s;
+}
