@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +25,15 @@ body{
     display:flex;
     align-items:center;
     padding:0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #f8c8dc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 .logo{
@@ -140,6 +150,13 @@ body{
     flex: 1;
 }
 
+.slider{
+width:80%;
+height:400px;
+margin:40px auto;
+overflow:hidden;
+border-radius:10px;
+}
 
 .slide{
 width:100%;
@@ -257,4 +274,3 @@ body {
     display: flex;
     flex-direction: column;
 }
-
