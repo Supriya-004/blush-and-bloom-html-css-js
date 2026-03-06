@@ -112,6 +112,16 @@ input,textarea {
     justify-content: center;
 }
 
+button{
+    background: #ff5fa2;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .footer {
     background-color: #f8c8dc;   
     color: #333;
