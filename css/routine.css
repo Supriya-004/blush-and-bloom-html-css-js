@@ -75,13 +75,4 @@ transform:scale(1.05);
     object-fit:contain;
       
 }
-.card button{
-margin-top:10px;
-padding:8px 18px;
-border:none;
-background:#ff4d88;
-color:white;
-border-radius:20px;
-cursor:pointer;
-}
 
