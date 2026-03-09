@@ -1,5 +1,3 @@
-alert("Welcome to blush & Bloom Contact Page🌸.");
-
 let visitorCount = 0;
 visitorCount++;
 
@@ -13,7 +11,6 @@ function sendMessage() {
     alert(`Hello ! ${name}.
     Thank you for contacting Blush & Bloom we received your message : ${message}
     
-     
     Our team will contact you soon on ${email}`);
 
 
