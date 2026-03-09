@@ -12,7 +12,6 @@ i = 0;
 }
 
 slides[i].classList.add("active");
-
 },3000);
 
 const themeToggle = document.getElementById("themeToggle");
@@ -20,3 +19,4 @@ const themeToggle = document.getElementById("themeToggle");
 themeToggle.addEventListener("click", () => {
 document.body.classList.toggle("dark-mode");
 });
+
