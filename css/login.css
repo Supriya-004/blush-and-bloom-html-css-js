@@ -189,12 +189,12 @@ body {
     border: 1px solid #d63384;
     border-radius: 25px;
     text-decoration: none;
-    color: #faf6f8;
+    color: #1a040f;
     transition: 0.3s;
-    background-color: #d63384;
+     background: #fab9d4;
 }
 .btn:hover {
-    background-color: #24368d;
+    background: #ff5fa2;
     box-shadow: 5px 5px 6px  rgb(120, 120, 140);
 }
 
@@ -203,12 +203,12 @@ body {
     border: 1px solid #d63384;
     border-radius: 25px;
     text-decoration: none;
-    color: #faf6f8;
+    color: #0a0909;
     transition: 0.3s;
-    background-color: #d63384;
+    background: #fab9d4;
 }
 .btn-outline:hover {
-    background-color: #24368d;
+     background: #ff5fa2;
     box-shadow: 5px 5px 6px  rgb(120, 120, 140);
 }
 
@@ -250,8 +250,8 @@ body {
 
 .login {
     width: 100%;
-    background: #d63384;
-    color: white;
+     background: #fab9d4;
+    color: rgb(5, 3, 3);
     border: none;
     padding: 10px;
     margin-top: 10px;
@@ -267,7 +267,7 @@ body {
 }
 
 .login:hover {
-    background-color: #24368d;
+    background: #ff5fa2;
 }
 
 .close {
