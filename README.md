@@ -1,5 +1,7 @@
 🌸 Blush & Bloom – Skincare Website
+## 🌸 Blush & Bloom Website Preview
 
+![Blush & Bloom Website](images/web-img.png)
 Blush & Bloom is a simple and user-friendly skincare website created using HTML, CSS, and JavaScript.
 The website helps users explore skincare products, learn daily skincare routines, and interact with different features like product search, image gallery, and theme toggle.
 
@@ -12,15 +14,12 @@ The objective of this project is to create a responsive and interactive skincare
 - Search products easily
 - Interact with dynamic website features
 
-
 🛠 Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 - Git & GitHub
-
-
 
 ✨ Features
 
@@ -47,20 +46,6 @@ The objective of this project is to create a responsive and interactive skincare
 - Sign Up
 
 
-
-👩‍💻 Contributors
-
-- Sayali Pawar
-- Member 2
-- Member 3
-- Member 4
-- Member 5
-- Member 6
-- Member 7
-- Member 8
-
----
-
 🚀 How to Run the Project
 
 1. Clone the repository
@@ -73,6 +58,17 @@ The objective of this project is to create a responsive and interactive skincare
 
 Academic Mini Project – Web Development
 
----
+👩‍💻 Contributors
+
+## 👩‍💻 Contributors
+
+<p align="center">
+
+<img src="images/saee.jpg" width="80">
+<img src="images/diksha.jpg" width="80">
+<img src="images/member3.jpg" width="80">
+<img src="images/member4.jpg" width="80">
+
+</p>
 
 💖 Blush & Bloom – Discover Your Natural Glow
