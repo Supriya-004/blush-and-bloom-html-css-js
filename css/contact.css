@@ -9,34 +9,35 @@
     margin-top: 45px;
     margin-bottom: 45px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
 }
 
-.box{
+.box {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-right: 10px;
 }
 
-.left-card{
+.left-card {
     margin-right: 50px;
 }
 
-h2{
+h2 {
     color: #ff5fa2;
     text-align: center;
     padding-bottom: 5px;
 }
 
-input,textarea {
+input,
+textarea {
     width: 350px;
     padding: 15px;
-    margin:   20px  auto;
+    margin: 20px auto;
     border-radius: 5px;
-    border: 1px solid #ccc; 
-    display: flex;  
+    border: 1px solid #ccc;
+    display: flex;
     justify-content: center;
 }
 

@@ -14,9 +14,18 @@ i = 0;
 slides[i].classList.add("active");
 },3000);
 
-const themeToggle = document.getElementById("themeToggle");
+document.addEventListener("DOMContentLoaded", function(){
 
-themeToggle.addEventListener("click", () => {
-document.body.classList.toggle("dark-mode");
+const toggleBtn = document.getElementById("themeToggle");
+const navbar = document.querySelector(".navbar");
+
+if(toggleBtn){
+toggleBtn.addEventListener("click", function(){
+
+navbar.classList.toggle("dark-mode");
+
+});
+}
+
 });
 

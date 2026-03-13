@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff8fb;
+    background-color: #fff0f5;
 }
 
 
@@ -100,31 +100,24 @@ body{
     display: flex;
     gap: 15px;
 }
-
 .theme-btn{
-background:transparent;
-border:none;
-font-size:20px;
-cursor:pointer;
-color:#ff4d6d;
-margin-left:15px;
+background: transparent;
+border: none;
+font-size: 20px;
+cursor: pointer;
+margin-left: 15px;
 }
 
-.dark-mode{
-background:#1a1a1a;
-color:white;
-}
-
-.dark-mode .navbar{
+.navbar.dark-mode{
 background:#111;
 }
 
-.dark-mode .nav-links a{
+.navbar.dark-mode a{
 color:white;
 }
 
-.dark-mode .brand{
-color:#ff8fab;
+.navbar.dark-mode .brand{
+color:#ff6b81;
 }
 
 .login-btn {
@@ -385,4 +378,40 @@ body {
     }
 }
 
+.dice-img {
+    width: 350px;
+    height: 300px;
+    border: #898484 solid 2px;
+    border-radius: 20px;
+    text-align: right;
+}
 
+.dice-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.dice-container h3 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.dice {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f6b8d1;
+    color: #000000;
+    border:#898484 solid 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dice:hover {
+    background-color: #d63384;
+    color: #fff;
+}
+
+.heading{
+    background-color:  #f8c8dc;
+    padding: 20px;
+}

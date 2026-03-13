@@ -24,8 +24,7 @@
         <div class="auth-buttons">
             <a href="pages/login.html" class="login-btn">Login</a>
             <a href="./pages/signup.html" class="signup-btn">Sign Up</a>
-            <button id="themeToggle" class="theme-btn">
-<i class="fa-solid fa-moon"></i>
+        <button id="themeToggle" class="theme-btn">🌙</button>
 </button>
         </div>
     </nav>
@@ -41,6 +40,49 @@
     </div>
 
     <script src="js/index.js"></script>
+
+    <div class="dice-container">
+        <h3>𝑭𝒆𝒆𝒍𝒊𝒏𝒈 𝒍𝒖𝒄𝒌𝒚 ?
+𝑹𝒐𝒍𝒍 𝒕𝒉𝒆 𝒅𝒊𝒄𝒆 𝒂𝒏𝒅 𝒖𝒏𝒍𝒐𝒄𝒌 𝒚𝒐𝒖𝒓 𝒃𝒆𝒂𝒖𝒕𝒚 𝒅𝒊𝒔𝒄𝒐𝒖𝒏𝒕!!</h3>
+        <img src="images/dice1.webp" alt="discount" id="dice" class="dice-img" />
+        <br> <br>
+        <button type="button" onclick="rollDice()" class="dice">Roll The Dice</button>
+
+        <script>
+            const diceImg = document.getElementById("dice");
+            function rollDice() {
+                const min = 1;
+                const max = 7;
+
+                const randomNumber = Math.floor(Math.random() * (max - min)) + min;
+                switch (randomNumber) {
+                    case 1: diceImg.src = "images/dice2.jpg";
+                        console.log(randomNumber);
+                        break;
+                    case 2: diceImg.src = "images/dice3.webp";
+                        console.log(randomNumber);
+
+                        break;
+                    case 3: diceImg.src = "images/dice4.webp";
+                        console.log(randomNumber);
+
+                        break;
+                    case 4: diceImg.src = "images/dice-5.jpg";
+                        console.log(randomNumber);
+
+                        break;
+                    case 5: diceImg.src = "images/dice-6.jpg";
+                        console.log(randomNumber);
+
+                        break;
+                    case 6: diceImg.src = "images/dice-7.jpg";
+                        console.log(randomNumber);
+
+                        break;
+                }
+            }
+        </script>
+    </div>
 
     <section class="shop-by-concern">
         <h2 class="section-title">Shop By Concern</h2>
