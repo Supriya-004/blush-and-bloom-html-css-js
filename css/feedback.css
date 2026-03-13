@@ -2,23 +2,24 @@ body {
     font-family: Arial;
     background: white;
     display: flex;
-  
+
     justify-content: space-between;
     align-items: center;
     height: 100vh;
 }
-.navbar{
-    width:1500px;
+
+.navbar {
+    width: 1500px;
 }
 
 .container {
     width: 750px;
-      flex-wrap: wrap;
+    flex-wrap: wrap;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 20px; 
-    padding: 20px;  
+    margin: 20px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -28,7 +29,7 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    width:750px;
+    width: 750px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -91,7 +92,7 @@ button:hover {
     background: #ff8fa3;
     transition: 0.3s;
     color: white;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
 }
 
