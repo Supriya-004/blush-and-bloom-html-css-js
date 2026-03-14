@@ -3,55 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <title>Blush & Bloom</title>
-    <link rel="stylesheet" href="../css/signup.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+     <link rel="stylesheet" href="./../css/signup.css">
+    <link rel="stylesheet" href="./../css/navbar.css">
+    <link rel="stylesheet" href="./../css/footer.css">
+    <link rel="stylesheet" href="./../css/toggle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ <link rel="icon" href="../images/web.logo.png" type="image-logo">
 </head>
+<script src="../js/toggle.js"></script>   
 <body>
 
     <nav class="navbar">
-        <div class="logo">Blush & Bloom</div>
-
+        <div class="nav-left">
+            <img src="../images/logo.jpeg" alt="Logo" class="logo">
+            <h2 class="brand">Blush & Bloom</h2>
+        </div>
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pages/product.html">Products</a></li>
-            <li><a href="pages/routine.html">Routine</a></li>
-            <li><a href="pages/about.html">About</a></li>
-            <li><a href="pages/contact.html">Contact</a></li>
-            <li><a href="pages/feedback.html">Feedback</a></li>
+            <li><a href="./../index.html">Home</a></li>
+            <li><a href="./../pages/product.html">Products</a></li>
+            <li><a href="./../pages/routine.html">Routine</a></li>
+            <li><a href="./../pages/about.html">About</a></li>
+            <li><a href="./../pages/contact.html">Contact</a></li>
+            <li><a href="./../pages/feedback.html">Feedback</a></li>
         </ul>
 
         <div class="auth-buttons">
-            <a href="pages/login.html" class="login-btn">Login</a>
-            <a href="pages/signup.html" class="signup-btn">Sign Up</a>
+            <a href="./../pages/login.html" class="login-btn">Login</a>
+            <a href="../pages/signup.html" class="signup-btn">Sign Up</a>
+        
         </div>
     </nav>
 
-    <head>
-    <title>Signup Form</title>
-    <link rel="stylesheet" href="style.css">
- </head>
 
-  <div class="signup-container">
+<div class="signup-box">
 
-     <h2>Create Account</h2>
+<div class="signup-image">
+<img src="./../images/sign-up.png">
+</div>
 
-    <form id="signupForm">
+<div class="signup-form">
 
-        <input type="text" id="name" placeholder="Full Name" required>
+<h2>Create Account</h2>
 
-        <input type="email" id="email" placeholder="Email" required>
+<form id="signupForm">
 
-        <input type="password" id="password" placeholder="Password" required>
+<input type="text" placeholder="Enter Your Name" id="name">
 
-        <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+<input type="email" placeholder="Enter Your Email" id="email">
 
-        <button type="submit">Sign Up</button>
+<input type="password" placeholder="Enter Password" id="password">
 
-        <p id="message"></p>
+<input type="password" placeholder="Confirm Password" id="confirm">
 
-    </form>
+<button type="submit">Sign Up</button>
 
- </div>
+</form>
+
+<p class="login-text">
+Already have account ? <a href="./login.html">Login</a>
+</p>
+
+</div>
+
+</div>
+
+<script src="./../js/sign-up.js"></script>
+
+
 
    <footer class="footer">
 
@@ -67,10 +85,10 @@
             </p>
 
             <div class="social-icons">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-pinterest"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://in.pinterest.com/"><i class="fab fa-pinterest"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
 

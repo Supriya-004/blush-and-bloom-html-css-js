@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Night Routine</title>
+    <title>Blush &  Bloom</title>
     <link rel="stylesheet" href="css/index.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="../css/navbar.css">
 <link rel="stylesheet" href="../css/footer.css">
 <link rel="stylesheet" href="../css/routine.css">
+<link rel="stylesheet" href="../css/toggle.css">
+ <link rel="icon" href="../images/web.logo.png" type="image-logo">
 </head>
+<script src="../js/toggle.js"></script>
 <body>
       <nav class="navbar">
         <div class="nav-left">
@@ -17,57 +20,64 @@
         </div>
 
         <ul class="nav-links">
-            <li><a href="./..index.html">Home</a></li>
-            <li><a href="./pages/product.html">Products</a></li>
-            <li><a href="./pages/routine.html">Routine</a></li>
-            <li><a href="./pages/about.html">About</a></li>
-            <li><a href="./pages/contact.html">Contact</a></li>
-            <li><a href="./pages/feedback.html">Feedback</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/product.html">Products</a></li>
+            <li><a href="../pages/routine.html">Routine</a></li>
+            <li><a href="../pages/about.html">About</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+            <li><a href="../pages/feedback.html">Feedback</a></li>
         </ul>
 
         <div class="auth-buttons">
-            <a href="pages/login.html" class="login-btn">Login</a>
-            <a href="./pages/signup.html" class="signup-btn">Sign Up</a>
+            <a href="../pages/login.html" class="login-btn">Login</a>
+            <a href="../pages/signup.html" class="signup-btn">Sign Up</a>
+              <button id="themeToggle" class="theme-btn">🌙</button>
         </div>
     </nav>
 <section class="routine-detail">
 
-<h1><img src="../images/icons8-moon-64.png" class="icon-img">Night Skincare Routine</h1>
+<h1>Night Skincare Routine</h1>
 
 <div class="steps-container">
 
 <div class="card">
-<h3>Step 1 – MUR<img src="../images/makeup-remover (2).png" class="icon-img"></h3>
+<img src="../images/routine.jpeg" class="icon-img">
+<h3>Step 1 – Makeup-Remover</h3>
 <p>Remove makeup and sunscreen.</p>
 <button onclick="done(this)">Mark as Done</button>
 </div>
 
 <div class="card">
-<h3>Step 2 – Cleanser<img src="../images/face-cleanser (2).png" class="icon-img"></h3>
+<img src="../images/washu.jpg" class="icon-img">
+<h3>Step 2 – Cleanser</h3>
 <p>Deep clean your skin.</p>
 <button onclick="done(this)">Mark as Done</button>
 </div>
 
 <div class="card">
-<h3>Step 3 – Toner<img src="../images/toner (1).png" class="icon-img"></h3>
+<img src="../images/tonner.jpg" class="icon-img">
+<h3>Step 3 – Toner</h3>
 <p>Refresh and balance skin.</p>
 <button onclick="done(this)">Mark as Done</button>
 </div>
 
 <div class="card">
-<h3>Step 4 – Eye-cr <img src="../images/cream (1).png" class="icon-img"></h3>
+<img src="../images/routine2.jpeg" class="icon-img">
+<h3>Step 4 – Eye-cream </h3>
 <p>Deep clean your skin.</p>
 <button onclick="done(this)">Mark as Done</button>
 </div>
 
 <div class="card">
-<h3>Step 5 – Night-Cr <img src="../images/night-cream (1).png" class="icon-img"></h3>
+ <img src="../images/night-cream.jpg" class="icon-img">
+<h3>Step 5 – Night-Cream</h3>
 <p>Nourish and repair overnight.</p>
 <button onclick="done(this)">Mark as Done</button>
 </div>
 
 <div class="card">
-<h3>Step 6 – Lip balm<img src="../images/lip-balm (1).png" class="icon-img"> </h3>
+<img src="../images/lip-balm1.jpg" class="icon-img">
+<h3>Step 6 – Lip balm </h3>
 <p>Nourish and repair overnight.</p>
 <button onclick="done(this)">Mark as Done</button>
 </div>
@@ -96,10 +106,10 @@
 
             <div class="social-icons">
                
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-pinterest"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+                 <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://in.pinterest.com/"><i class="fab fa-pinterest"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
 

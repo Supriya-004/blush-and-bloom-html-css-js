@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-right: 10px;
+    padding: 10px;
 }
 
 .contact-form{
@@ -35,6 +35,11 @@ h2 {
     padding-bottom: 5px;
 }
 
+.contact-form {
+    margin-right: 20px;
+    padding-left: 60px;
+}
+
 input,
 textarea {
     width: 100%;
@@ -45,7 +50,7 @@ textarea {
    
 }
 
-.btn{
+.btn {
     background: #fab9d4;
     color: rgb(0, 0, 0);
     border: none;
@@ -54,14 +59,14 @@ textarea {
     width: 100%;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.btn:hover{
+.btn:hover {
     background: #ff5fa2;
     transition: 0.3s;
     color: white;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
 }
 
