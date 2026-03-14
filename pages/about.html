@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/about.css">
-    <link rel="stylesheet" href="../css/toggle.css"> 
+    <link rel="stylesheet" href="../css/toggle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="icon" href="../images/web.logo.png" type="image-logo">
 </head>
@@ -130,10 +130,51 @@
         </div>
     </div>
 
-    <div class="img-container">
-
+    <div class="team-section">
+        <h2>The People Behind Our Success
+        </h2>
     </div>
 
+    <div class="img-container">
+        <span class="btn-slide btn-left" onclick="slideLeft()">&lt;</span>
+        <img src="../images/saee.jpg" alt="Team Image" class="main-img" id="mainImage">
+        <span class="btn-slide btn-right" onclick="slideRight()">&gt;</span>
+    </div>
+
+    <script>
+        const IMAGES = [
+            "../images/saee.jpg",
+            "../images/diksha.jpg",
+            "../images/vaishnavi.jpg",
+            "../images/supriya.jpg",
+            "../images/rutu.jpg",
+            "../images/poonam.jpeg",
+            "../images/nisha.jpg",
+            "../images/namrata.jpg",
+        ];
+
+        let currentIndex = 0;
+
+        function showCurrentIndexImage() {
+            document.getElementById("mainImage").src = IMAGES[currentIndex];
+        }
+
+        function slideLeft() {
+            currentIndex = (currentIndex - 1 + IMAGES.length) % IMAGES.length;
+            showCurrentIndexImage();
+        }
+
+        function slideRight() {
+            currentIndex = (currentIndex + 1) % IMAGES.length;
+            showCurrentIndexImage();
+        }
+
+        window.onload = showCurrentIndexImage;
+    </script>
+    <div class="team-section">
+        <p>Meet the talented individuals who make Blush & Bloom possible. </p>
+    </div>
+    <br><br>
     <footer class="footer">
 
         <div class="footer-container">
@@ -159,7 +200,6 @@
                     <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
-
 
             <div class="footer-col">
                 <h3>Quick Links</h3>
