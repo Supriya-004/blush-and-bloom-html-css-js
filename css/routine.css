@@ -88,41 +88,6 @@ border-radius:20px;
 cursor:pointer;
 }
 
-@media (max-width:768px){
-
-.routine-main{
-padding:50px 20px;
-}
-
-.routine-main h1{
-font-size:32px;
-}
-
-.routine-container{
-flex-direction:column;
-align-items:center;
-gap:25px;
-}
-
-.routine-card{
-width:80%;
-}
-
-.steps-container{
-gap:20px;
-}
-
-.card{
-width:220px;
-}
-
-.icon-img{
-width:180px;
-height:220px;
-}
-
-}
-
 @media (max-width:480px){
 .routine-main h1{
 font-size:26px;
