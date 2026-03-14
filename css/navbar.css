@@ -16,10 +16,6 @@ body {
 
 }
 
-body {
-    margin: 0;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -170,34 +166,6 @@ margin-top:10px;
 
 .theme-toggle{
 margin-top:10px;
-}
-
-}
-
-@media (max-width:768px){
-
-.footer-container{
-flex-direction:column;
-text-align:center;
-gap:20px;
-}
-
-.footer-section{
-width:100%;
-}
-
-.footer-section h3{
-margin-bottom:8px;
-}
-
-.footer-social{
-justify-content:center;
-margin-top:10px;
-}
-
-.footer-bottom{
-font-size:14px;
-padding-top:10px;
 }
 
 }

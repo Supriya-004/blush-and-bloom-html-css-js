@@ -1,0 +1,20 @@
+
+.theme-btn{
+background: transparent;
+border: none;
+font-size: 20px;
+cursor: pointer;
+margin-left: 15px;
+}
+
+.navbar.dark-mode{
+background:#111;
+}
+
+.navbar.dark-mode a{
+color:white;
+}
+
+.navbar.dark-mode .brand{
+color:#ff6b81;
+}

@@ -213,7 +213,11 @@ transition:transform 0.5s ease;
 }
 
 .concern-card {
+<<<<<<< HEAD
+    background-color: #f9f9f9; /* Light cream background */
+=======
     background-color: #FFEFF1 ; 
+>>>>>>> 8a3871759bcd6945e12d063b9d187551a352ec3d
     border-radius: 15px;
     overflow: hidden;
     display: flex;
