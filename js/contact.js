@@ -1,7 +1,9 @@
 let visitorCount = 0;
 visitorCount++;
 
-function sendMessage() {
+function sendMessage(event) {
+    event.preventDefault();
+
     let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
     let message = document.getElementById("message").value;

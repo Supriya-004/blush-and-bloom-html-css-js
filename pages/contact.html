@@ -46,11 +46,13 @@
 
             <div class="contact-form">
                 <h2>Contact Us</h2>
+                <form onsubmit="sendMessage(event)">
                 <input type="text" id="name" placeholder="Enter Your Name" required>
                 <input type="email" id="email" placeholder="Enter Your Email" required>
-                <textarea id="message" placeholder="Write Your Message"></textarea>
+                <textarea id="message" placeholder="Write Your Message" required></textarea>
 
-                <button class="btn" onclick="sendMessage()">Send Message</button>
+                <button  type="submit" class="btn">Send Message</button>
+            </form>
             </div>
         </div>
     </div>
