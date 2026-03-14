@@ -44,7 +44,6 @@ background:#ff4d88;
 color:white;
 border-radius:6px;
 }
-
 .routine-detail{
 padding:60px;
 text-align:center;
@@ -66,16 +65,19 @@ padding-top:0px;
 border-radius:15px;
 box-shadow:1 4px 12px rgba(0,0,0,0.1);
 text-align:center;
+transition:0.3s;
 }
+
 .card:hover{
 transform:scale(1.05);
 }
+
 .icon-img{
-    width:220px;
-    height:270px;
-    object-fit:contain;
-      
+width:220px;
+height:270px;
+object-fit:contain;
 }
+
 .card button{
 margin-top:10px;
 padding:8px 18px;
@@ -84,5 +86,74 @@ background:#ff4d88;
 color:white;
 border-radius:20px;
 cursor:pointer;
+}
+
+@media (max-width:768px){
+
+.routine-main{
+padding:50px 20px;
+}
+
+.routine-main h1{
+font-size:32px;
+}
+
+.routine-container{
+flex-direction:column;
+align-items:center;
+gap:25px;
+}
+
+.routine-card{
+width:80%;
+}
+
+.steps-container{
+gap:20px;
+}
+
+.card{
+width:220px;
+}
+
+.icon-img{
+width:180px;
+height:220px;
+}
+
+}
+
+@media (max-width:480px){
+.routine-main h1{
+font-size:26px;
+}
+
+.routine-main p{
+font-size:14px;
+}
+
+.routine-card{
+width:90%;
+padding:20px;
+}
+
+.steps-container{
+flex-direction:column;
+align-items:center;
+}
+
+.card{
+width:90%;
+}
+
+.icon-img{
+width:160px;
+height:200px;
+}
+
+.card button{
+padding:7px 16px;
+font-size:14px;
+}
 
 }
